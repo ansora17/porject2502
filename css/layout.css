@@ -1,0 +1,22 @@
+@media (max-width: 1399px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .visual {
+    height: 240px;
+    width: auto;
+  }
+  h4.text {
+    font-size: 22px;
+  }
+
+  h5.text {
+    font-size: 13px;
+  }
+}
