@@ -5,8 +5,8 @@ body {
 
 a:visited,
 a:link {
-  text-decoration: none !important;
-  color: #111111 !important;
+  text-decoration: none;
+  color: #111111;
 }
 
 h2.text {
@@ -47,6 +47,12 @@ h5.text {
 }
 
 /* maureen  */
+
+.menu1 a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 .head1wrap {
   display: flex;
   justify-content: space-between;
@@ -76,6 +82,13 @@ h5.text {
   background-size: 120px;
 
   background-position: -20px 0;
+}
+
+.top-text {
+  font-size: 15px;
+  line-height: 21px;
+  color: rgb(92, 91, 91) !important;
+  font-weight: bold;
 }
 
 /* tidlsld249  */
