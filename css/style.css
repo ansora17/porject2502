@@ -90,6 +90,97 @@ h5.text {
   color: rgb(92, 91, 91) !important;
   font-weight: bold;
 }
+/* .footer {
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+  font-size: 14px;
+  background-color: purple;
+  min-height: 240px;
+} */
+.footer {
+  /* position: static; */
+  margin: 0 auto;
+  /* background-color: gray; */
+  /* display: flex; */
+}
+.nav-wrap1 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-call {
+  padding: 0 0 19px;
+  /* background-color: lightgoldenrodyellow; */
+}
+.nav-call ul {
+  display: flex;
+  gap: 41px;
+  /* list-style: none; */
+}
+.nav-call ul li {
+  display: flex;
+  gap: 20px;
+  line-height: 18px;
+}
+.nav-sns {
+  display: flex;
+  gap: 10px;
+  background-size: 120px;
+  /* background-color: #fff; */
+}
+
+.sns_ico1 {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/icon-sns.png);
+  background-size: 125px;
+  background-position: 0px 0;
+}
+.sns_ico2 {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/icon-sns.png);
+  background-size: 125px;
+  background-position: -25px 0;
+}
+.sns_ico3 {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/icon-sns.png);
+  background-size: 125px;
+  background-position: -50px 0;
+}
+.sns_ico4 {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/icon-sns.png);
+  background-size: 125px;
+  background-position: -75px 0;
+}
+.sns_ico5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/icon-sns.png);
+  background-size: 125px;
+  background-position: -100px 0;
+}
+.nav-wrap2 {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 auto; */
+  /* box-sizing: border-box; */
+  /* background-color: orange; */
+}
+.nav-fnb ul {
+  display: flex;
+  gap: 30px;
+  /* line-height: 18px; */
+}
+.nav-site {
+  /* background-color: lightblue; */
+  position: absolute;
+  right: 0;
+}
 
 /* tidlsld249  */
 swiper-container {
